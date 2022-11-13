@@ -1,9 +1,27 @@
-#input{
-    max-width: 300px;
-    margin:auto;
+.bold{
+    font-weight: bold;
 }
-.size{
-    height: 300px;
-    width: 300px;
+.italics{
+    font-style: italic;
 }
+.underline{
+    text-decoration: underline;
+}
+.h1{
+    font-size: x-large;
 
+}
+.h2{
+    font-size: larger;
+
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+}
+#output{
+    min-width: 650px;
+    min-height: 300px;
+
+    border: 1px solid black;
+}
